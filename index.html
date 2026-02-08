@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Emerson Transportation Inc</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+  background:#f5f7fa;
+  color:#222;
+}
+
+header {
+  background:#0b1c2d;
+  color:white;
+  padding:20px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+header h1 {
+  margin:0;
+  font-size:26px;
+}
+
+nav a {
+  color:white;
+  text-decoration:none;
+  margin-left:25px;
+  font-weight:500;
+}
+
+.hero {
+  background:url('https://images.unsplash.com/photo-1503376780353-7e6692767b70') center/cover no-repeat;
+  color:white;
+  text-align:center;
+  padding:120px 20px;
+}
+
+.hero h2 {
+  font-size:42px;
+  margin-bottom:10px;
+}
+
+.hero p {
+  font-size:20px;
+  margin-bottom:25px;
+}
+
+.btn {
+  background:#ff7a00;
+  color:white;
+  padding:14px 26px;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:600;
+}
+
+.section {
+  padding:60px 20px;
+  max-width:1100px;
+  margin:auto;
+}
+
+.section h3 {
+  text-align:center;
+  font-size:30px;
+  margin-bottom:30px;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
+  gap:25px;
+}
+
+.card {
+  background:white;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card h4 {
+  margin-top:0;
+}
+
+.contact {
+  background:#0b1c2d;
+  color:white;
+}
+
+.contact form {
+  display:grid;
+  gap:15px;
+  max-width:500px;
+  margin:auto;
+}
+
+input, textarea {
+  padding:14px;
+  border:none;
+  border-radius:6px;
+  font-size:16px;
+}
+
+button {
+  background:#ff7a00;
+  color:white;
+  border:none;
+  padding:14px;
+  font-size:16px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+footer {
+  text-align:center;
+  padding:25px;
+  background:#08131f;
+  color:#bbb;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Emerson Transportation Inc</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#fleet">Fleet</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Reliable Freight. Nationwide Coverage.</h2>
+  <p>Professional Trucking & Logistics Services You Can Trust</p>
+  <a href="#contact" class="btn">Request a Quote</a>
+</section>
+
+<section id="about" class="section">
+  <h3>About Us</h3>
+  <p>
+    Emerson Transportation Inc is a professional trucking and logistics company
+    committed to safe, on-time, and dependable freight delivery across the United States.
+    We focus on reliability, communication, and customer satisfaction on every load.
+  </p>
+</section>
+
+<section id="services" class="section">
+  <h3>Our Services</h3>
+
+  <div class="grid">
+    <div class="card">
+      <h4>Long Haul Trucking</h4>
+      <p>Coast-to-coast freight transport with experienced drivers and modern equipment.</p>
+    </div>
+
+    <div class="card">
+      <h4>Dedicated Loads</h4>
+      <p>Dedicated routes and scheduled deliveries for consistent shipping needs.</p>
+    </div>
+
+    <div class="card">
+      <h4>Time-Critical Freight</h4>
+      <p>Expedited shipping solutions for urgent and high-priority cargo.</p>
+    </div>
+
+    <div class="card">
+      <h4>Broker & Shipper Support</h4>
+      <p>Strong communication and real-time updates for brokers and customers.</p>
+    </div>
+  </div>
+</section>
+
+<section id="fleet" class="section">
+  <h3>Our Fleet</h3>
+
+  <div class="grid">
+    <div class="card">
+      <h4>Late Model Sleeper Trucks</h4>
+      <p>Well-maintained, DOT-compliant tractors for long distance operations.</p>
+    </div>
+
+    <div class="card">
+      <h4>Dry Van Trailers</h4>
+      <p>Secure and weather-protected freight hauling.</p>
+    </div>
+
+    <div class="card">
+      <h4>Safety First</h4>
+      <p>All equipment is regularly inspected and maintained for maximum safety.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <h3>Contact Us</h3>
+
+  <form>
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <input type="text" placeholder="Phone Number">
+    <textarea rows="4" placeholder="Freight Details / Message"></textarea>
+    <button type="submit">Send Inquiry</button>
+  </form>
+
+  <p style="text-align:center;margin-top:20px;">
+    📞 Phone: 310-810-5563<br>
+    ✉️ Email: emersontransportationsinc@gmail.com
+  </p>
+</section>
+
+<footer>
+  © 2026 Emerson Transportation Inc — All Rights Reserved
+</footer>
+
+</body>
+</html>
